@@ -28,7 +28,7 @@ export function Reveal() {
               Five stages of <span className="italic text-veil">unveiling.</span>
             </h2>
             <p className="mt-6 max-w-md text-muted-foreground">
-              A hidden score tracks reply speed, mutual messages, and reveal
+              A hidden score tracks reply speed, mutual energy, and reveal
               actions. As tension builds, your connection moves from cold
               curiosity to dangerous knowing.
             </p>
