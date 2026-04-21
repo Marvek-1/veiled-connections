@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Nav } from "@/components/veil/Nav";
 import { Hero } from "@/components/veil/Hero";
 import { HowItWorks } from "@/components/veil/HowItWorks";
+import { Verification } from "@/components/veil/Verification";
 import { TokenEconomy } from "@/components/veil/TokenEconomy";
 import { Reveal } from "@/components/veil/Reveal";
 import { Faq } from "@/components/veil/Faq";
@@ -36,6 +37,7 @@ function Index() {
       <Nav />
       <Hero />
       <HowItWorks />
+      <Verification />
       <TokenEconomy />
       <Reveal />
       <Faq />
