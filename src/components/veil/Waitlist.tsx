@@ -41,7 +41,7 @@ export function Waitlist() {
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-muted-foreground">
             Veil opens in Nairobi by invitation only. Drop your number and we'll
-            send a WhatsApp invitation when your seat opens.
+            send your WhatsApp invitation when your place opens.
           </p>
 
           {submitted ? (

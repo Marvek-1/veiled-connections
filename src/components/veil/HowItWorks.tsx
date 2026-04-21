@@ -4,17 +4,17 @@ const steps = [
   {
     n: "01",
     title: "Slip behind the veil",
-    body: "Sign up with your phone. Verify on WhatsApp. No name. No photo. Just a codename and a quiet curiosity.",
+    body: "Sign up with your phone. Verify on WhatsApp. No pressure, no public profile — just a codename and a quiet curiosity.",
   },
   {
     n: "02",
     title: "Receive 100 tokens",
-    body: "Your wallet starts full. Tokens are the breath of every interaction — spend them to send, to see, to know.",
+    body: "Your wallet starts full. Tokens are the pulse of every interaction — spend them to send, to see, to know.",
   },
   {
     n: "03",
     title: "Activate for 200 KES",
-    body: "A small ritual fee. It separates the curious from the noise. Pay once. Stay forever.",
+    body: "A one-time activation fee that keeps Veil verified, intentional, and free of fake accounts. Pay once. Enter fully.",
   },
   {
     n: "04",
