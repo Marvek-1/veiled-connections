@@ -9,27 +9,27 @@ import {
 const faqs = [
   {
     q: "Why do I have to pay 200 KES to activate?",
-    a: "It's a ritual fee — small enough not to sting, sharp enough to keep the platform free of fakes, bots, and the unserious. Pay once. The veil opens forever.",
+    a: "A one-time activation fee that keeps Veil verified, intentional, and free of fakes, bots, and the unserious. You pay it once and your account stays active.",
   },
   {
     q: "How is my identity protected?",
-    a: "You sign up with a codename. No name, no photo, no number is shown to anyone. Your phone is verified privately on WhatsApp. Identity is revealed only when you choose, action by action.",
+    a: "Your profile begins fully anonymous under a codename. Your phone number stays private and is only used for WhatsApp verification. Identity is revealed only through actions you choose, one step at a time.",
   },
   {
     q: "What happens with the 100 free tokens?",
-    a: "They're yours the moment you verify. Use them to send your first connection requests, open chats, and unlock first impressions before deciding to buy more.",
+    a: "They're credited to your wallet the moment you verify. Use them to send your first connection requests, open chats, and unlock early reveals before deciding to top up.",
   },
   {
     q: "Can I match with anyone?",
-    a: "For the MVP, Veil only connects you with the opposite sex. Matching is local, anonymous, and limited daily — to keep every conversation worth its weight.",
+    a: "At launch, Veil connects you only with the opposite sex. Matching is local, anonymous, and capped daily so every conversation stays worth its weight.",
   },
   {
     q: "How do reveals work?",
-    a: "Each reveal — image, name, voice, WhatsApp — costs tokens. Once unlocked in a connection, the reveal stays. Some require mutual consent before the veil drops.",
+    a: "Each reveal — image, name, voice, WhatsApp — costs tokens. Once unlocked inside a connection, that reveal stays unlocked for both of you. Sensitive reveals require mutual consent before the veil drops.",
   },
   {
     q: "Is Veil safe?",
-    a: "Every account is WhatsApp-verified and 18+. Reports, blocks, and abuse filters live inside every chat. Suspicious behavior is moderated swiftly.",
+    a: "Every account is WhatsApp-verified and 18+. Reports, blocks, and abuse filters live inside every chat, and suspicious behavior is reviewed and acted on quickly.",
   },
 ];
 

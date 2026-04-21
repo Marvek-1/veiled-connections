@@ -55,7 +55,17 @@ export function Hero() {
           className="mt-10 max-w-xl text-balance text-base leading-relaxed text-muted-foreground md:text-lg"
         >
           A connection ritual where mystery is the currency. WhatsApp-verified.
-          Identity revealed only when curiosity earns it.
+          Identity revealed only when trust and curiosity earn it.
+        </motion.p>
+
+        <motion.p
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.55, ease: [0.22, 1, 0.36, 1] }}
+          className="mt-4 max-w-xl text-balance text-sm leading-relaxed text-muted-foreground/80"
+        >
+          Meet anonymously, verify through WhatsApp, and use tokens to unlock
+          deeper connection at your own pace.
         </motion.p>
 
         <motion.div
