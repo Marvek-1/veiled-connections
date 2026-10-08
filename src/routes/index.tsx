@@ -13,9 +13,17 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Veil — Where Beauty Meets Brilliance" },
-      { name: "description", content: "A dual-gated sanctuary for attractive, high-agency minds. Real faces, vetted thinking, dialectic-first conversations, real devotion." },
+      {
+        name: "description",
+        content:
+          "A dual-gated sanctuary for attractive, high-agency minds. Real faces, vetted thinking, dialectic-first conversations, real devotion.",
+      },
       { property: "og:title", content: "Veil — Where Beauty Meets Brilliance" },
-      { property: "og:description", content: "Cognitive resonance, physical attraction, real devotion. For those who refuse to choose between mind and body." },
+      {
+        property: "og:description",
+        content:
+          "Cognitive resonance, physical attraction, real devotion. For those who refuse to choose between mind and body.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

@@ -47,8 +47,8 @@ export function Hero() {
           transition={{ duration: 1, delay: 0.45, ease }}
           className="mt-10 max-w-xl text-balance text-base leading-relaxed text-muted-foreground md:text-lg"
         >
-          Cognitive resonance, physical attraction, real devotion. Veil is the
-          sanctuary for those who refuse to choose between mind and body.
+          Cognitive resonance, physical attraction, real devotion. Veil is the sanctuary for those
+          who refuse to choose between mind and body.
         </motion.p>
 
         <motion.div

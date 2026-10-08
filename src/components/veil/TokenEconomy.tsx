@@ -39,8 +39,8 @@ export function TokenEconomy() {
             Tokens are the <span className="italic text-veil">heartbeat.</span>
           </h2>
           <p className="mt-6 text-muted-foreground">
-            Every gesture costs something. Every reveal is earned. This is what
-            keeps Veil quiet, intentional, and electric.
+            Every gesture costs something. Every reveal is earned. This is what keeps Veil quiet,
+            intentional, and electric.
           </p>
         </motion.div>
 
@@ -102,9 +102,7 @@ export function TokenEconomy() {
 
             <div className="relative overflow-hidden rounded-3xl bg-veil p-8 text-primary-foreground shadow-glow">
               <div className="absolute inset-0 grain opacity-20" />
-              <p className="relative text-xs uppercase tracking-[0.3em] opacity-70">
-                Token packs
-              </p>
+              <p className="relative text-xs uppercase tracking-[0.3em] opacity-70">Token packs</p>
               <p className="relative mt-3 font-display text-4xl">
                 From <span className="italic">100 KES</span>
               </p>

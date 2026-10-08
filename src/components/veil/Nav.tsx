@@ -18,10 +18,18 @@ export function Nav() {
           <span className="font-display text-2xl tracking-wide text-foreground">Veil</span>
         </Link>
         <div className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
-          <a href="/#protocol" className="transition-colors hover:text-foreground">The Protocol</a>
-          <a href="/#diagnostic" className="transition-colors hover:text-foreground">Diagnostic</a>
-          <a href="/#profile" className="transition-colors hover:text-foreground">Frame & Thesis</a>
-          <a href="/#faq" className="transition-colors hover:text-foreground">FAQ</a>
+          <a href="/#protocol" className="transition-colors hover:text-foreground">
+            The Protocol
+          </a>
+          <a href="/#diagnostic" className="transition-colors hover:text-foreground">
+            Diagnostic
+          </a>
+          <a href="/#profile" className="transition-colors hover:text-foreground">
+            Frame & Thesis
+          </a>
+          <a href="/#faq" className="transition-colors hover:text-foreground">
+            FAQ
+          </a>
         </div>
         <Link
           to="/calibration"

@@ -6,10 +6,37 @@ export const QUESTIONS = [
 
 const VECTORS: Record<string, string[]> = {
   "Artificial Intelligence": ["ai", "agent", "model", "llm", "machine", "neural", "automation"],
-  "Markets & Capital": ["market", "money", "finance", "trade", "invest", "economy", "crypto", "capital"],
+  "Markets & Capital": [
+    "market",
+    "money",
+    "finance",
+    "trade",
+    "invest",
+    "economy",
+    "crypto",
+    "capital",
+  ],
   "Biology & Longevity": ["bio", "health", "body", "longevity", "gene", "brain", "medicine"],
-  "Philosophy & Meaning": ["truth", "meaning", "god", "conscious", "ethic", "moral", "free will", "exist"],
-  "Systems & Society": ["system", "society", "politic", "govern", "education", "city", "africa", "power"],
+  "Philosophy & Meaning": [
+    "truth",
+    "meaning",
+    "god",
+    "conscious",
+    "ethic",
+    "moral",
+    "free will",
+    "exist",
+  ],
+  "Systems & Society": [
+    "system",
+    "society",
+    "politic",
+    "govern",
+    "education",
+    "city",
+    "africa",
+    "power",
+  ],
   "Art & Design": ["art", "design", "music", "beauty", "film", "write", "story"],
   "Energy & Climate": ["energy", "climate", "solar", "water", "food", "planet"],
 };
@@ -25,8 +52,8 @@ export function analyse(answers: string[]): Profile {
     .sort((a, b) => b[1] - a[1])
     .slice(0, 3)
     .map(([k]) => k);
-  const agencyHits = ["build", "start", "create", "solve", "ship", "fix", "launch", "make"].filter((w) =>
-    text.includes(w),
+  const agencyHits = ["build", "start", "create", "solve", "ship", "fix", "launch", "make"].filter(
+    (w) => text.includes(w),
   ).length;
   const depth = Math.min(100, Math.round(words * 1.4 + vectors.length * 8 + agencyHits * 6));
   const archetype =

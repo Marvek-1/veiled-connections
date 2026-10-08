@@ -28,9 +28,8 @@ export function Reveal() {
               Five stages of <span className="italic text-veil">unveiling.</span>
             </h2>
             <p className="mt-6 max-w-md text-muted-foreground">
-              A hidden score tracks reply speed, mutual energy, and reveal
-              actions. As tension builds, your connection moves from cold
-              curiosity to dangerous knowing.
+              A hidden score tracks reply speed, mutual energy, and reveal actions. As tension
+              builds, your connection moves from cold curiosity to dangerous knowing.
             </p>
 
             <div className="mt-10 space-y-3">
@@ -48,9 +47,7 @@ export function Reveal() {
                       <span
                         key={idx}
                         className={`h-8 w-1.5 rounded-full transition-all ${
-                          idx <= i
-                            ? "bg-veil shadow-glow"
-                            : "bg-border"
+                          idx <= i ? "bg-veil shadow-glow" : "bg-border"
                         }`}
                       />
                     ))}
@@ -89,9 +86,7 @@ export function Reveal() {
                 className="h-80 w-full object-cover"
               />
               <div className="space-y-1 p-5">
-                <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
-                  Codename
-                </p>
+                <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Codename</p>
                 <p className="font-display text-2xl text-foreground">Nyx · 24</p>
                 <p className="text-xs text-primary">Curious · Nairobi</p>
               </div>
@@ -112,9 +107,7 @@ export function Reveal() {
                 className="h-80 w-full object-cover"
               />
               <div className="space-y-1 p-5">
-                <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">
-                  Codename
-                </p>
+                <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Codename</p>
                 <p className="font-display text-2xl text-foreground">Ash · 27</p>
                 <p className="text-xs text-primary">Magnetic · Nairobi</p>
               </div>

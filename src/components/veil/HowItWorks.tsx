@@ -34,9 +34,7 @@ export function HowItWorks() {
           transition={{ duration: 0.9 }}
           className="mx-auto max-w-2xl text-center"
         >
-          <p className="mb-4 text-xs uppercase tracking-[0.3em] text-primary">
-            The Ritual
-          </p>
+          <p className="mb-4 text-xs uppercase tracking-[0.3em] text-primary">The Ritual</p>
           <h2 className="font-display text-5xl leading-tight text-gradient md:text-7xl">
             Four steps. <span className="italic text-veil">One unveiling.</span>
           </h2>

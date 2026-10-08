@@ -33,15 +33,13 @@ export function Waitlist() {
             <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background/90" />
           </div>
 
-          <p className="mb-4 text-xs uppercase tracking-[0.3em] text-primary">
-            The first 300
-          </p>
+          <p className="mb-4 text-xs uppercase tracking-[0.3em] text-primary">The first 300</p>
           <h2 className="font-display text-5xl leading-tight text-gradient md:text-7xl">
             Step inside <span className="italic text-veil">before the world does.</span>
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-muted-foreground">
-            Veil opens in Nairobi by invitation only. Drop your number and we'll
-            send your WhatsApp invitation when your place opens.
+            Veil opens in Nairobi by invitation only. Drop your number and we'll send your WhatsApp
+            invitation when your place opens.
           </p>
 
           {submitted ? (
@@ -51,9 +49,7 @@ export function Waitlist() {
               transition={{ duration: 0.6 }}
               className="mx-auto mt-10 max-w-md rounded-2xl bg-secondary/60 p-6 text-center"
             >
-              <p className="font-display text-2xl text-foreground">
-                Your seat is whispered for.
-              </p>
+              <p className="font-display text-2xl text-foreground">Your seat is whispered for.</p>
               <p className="mt-2 text-sm text-muted-foreground">
                 Watch your WhatsApp. The veil will reach out.
               </p>

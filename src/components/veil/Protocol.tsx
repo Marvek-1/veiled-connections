@@ -1,10 +1,26 @@
 import { motion } from "framer-motion";
 
 const steps = [
-  { n: "01", t: "Dual-Gating", d: "Visual authenticity + cognitive vectoring. Only those who pass both thresholds enter." },
-  { n: "02", t: "Curated Collisions", d: "A few daily matches built on physical attraction AND intellectual compatibility. No endless swiping." },
-  { n: "03", t: "Dialectic First", d: "No lazy “hey.” First contact is a thesis, a problem, a dilemma to solve together." },
-  { n: "04", t: "Real Devotion", d: "By the time you meet in person, you're already bonded — mentally and physically." },
+  {
+    n: "01",
+    t: "Dual-Gating",
+    d: "Visual authenticity + cognitive vectoring. Only those who pass both thresholds enter.",
+  },
+  {
+    n: "02",
+    t: "Curated Collisions",
+    d: "A few daily matches built on physical attraction AND intellectual compatibility. No endless swiping.",
+  },
+  {
+    n: "03",
+    t: "Dialectic First",
+    d: "No lazy “hey.” First contact is a thesis, a problem, a dilemma to solve together.",
+  },
+  {
+    n: "04",
+    t: "Real Devotion",
+    d: "By the time you meet in person, you're already bonded — mentally and physically.",
+  },
 ];
 
 export function Protocol() {

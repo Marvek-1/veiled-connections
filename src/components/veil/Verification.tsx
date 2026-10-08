@@ -42,8 +42,8 @@ export function Verification() {
             One code. <span className="italic text-veil">Nothing else.</span>
           </h2>
           <p className="mt-6 text-base leading-relaxed text-muted-foreground">
-            We use WhatsApp because it's already on your phone and it proves the
-            number is real. Here's exactly what happens — in plain English.
+            We use WhatsApp because it's already on your phone and it proves the number is real.
+            Here's exactly what happens — in plain English.
           </p>
         </motion.div>
 
@@ -62,9 +62,7 @@ export function Verification() {
                   <p.icon className="h-5 w-5" />
                 </span>
                 <div>
-                  <h3 className="font-display text-xl text-foreground md:text-2xl">
-                    {p.title}
-                  </h3>
+                  <h3 className="font-display text-xl text-foreground md:text-2xl">{p.title}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-muted-foreground md:text-base">
                     {p.body}
                   </p>
